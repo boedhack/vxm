@@ -23,6 +23,17 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "SoterService",
+	owner: "xiaomi",
+	apk: "proprietary/vendor/app/SoterService/SoterService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	soc_specific: true,
+}
+
+android_app_import {
 	name: "CACertService",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -134,5 +145,47 @@ android_app_import {
 	},
 	privileged: true,
 	system_ext_specific: true,
+}
+
+dex_import {
+	name: "WfdCommon",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/WfdCommon.jar"],
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.gnss@2.1-service-qti",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.keymaster@4.1-service-default-qti",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service-default-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.3-service.widevine",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.gnss@4.0-service",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
 }
 
