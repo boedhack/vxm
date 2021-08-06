@@ -330,6 +330,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mojito/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/mojito/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/xiaomi/mojito/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
+    vendor/xiaomi/mojito/proprietary/vendor/etc/K7A/para_ini_cal_w_d_0.bin:$(TARGET_COPY_OUT_VENDOR)/etc/K7A/para_ini_cal_w_d_0.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/etc/K7A/para_ini_cal_w_uw_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/K7A/para_ini_cal_w_uw_1.bin \
     vendor/xiaomi/mojito/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/xiaomi/mojito/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/xiaomi/mojito/proprietary/vendor/etc/lm/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml \
