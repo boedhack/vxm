@@ -644,6 +644,36 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.sensormodule.k7_sunny_imx355_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.k7_sunny_imx355_ultra.bin \
     vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.sensormodule.k7_sunny_ov13b10_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.k7_sunny_ov13b10_front.bin \
     vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_gc02m1_macro_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_imx355_ultra_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_imx582_wide_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_ov02b1b_depth_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_ofilm_ov13b10_front_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_semco_imx582_wide_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_gc02m1_macro_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_gc02m1b_depth_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_imx355_ultra_india.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_china.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_china.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_global.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_global.bin \
+    vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_india.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.k7_sunny_ov13b10_front_india.bin \
     vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/com.qti.tuned.liteon_imx318.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.liteon_imx318.bin \
     vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/components/com.almalence.node.sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.almalence.node.sr.so \
     vendor/xiaomi/mojito/proprietary/vendor/lib64/camera/components/com.altek.node.depurple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.altek.node.depurple.so \
